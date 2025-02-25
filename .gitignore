@@ -1,0 +1,65 @@
+# 🚀 Python Ignore Rules
+__pycache__/
+*.py[cod]
+*.so
+*.swp
+.DS_Store
+
+# 🚀 Conda Environment Files
+env/
+venv/
+*.env
+*.venv
+conda-meta/
+*.conda
+*.lock
+
+# 🚀 Jupyter Notebook Cache
+.ipynb_checkpoints/
+*.checkpoint
+
+# 🚀 VS Code Project Files
+.vscode/
+*.code-workspace
+
+# 🚀 Logs & Debugging Files
+logs/
+*.log
+debug.log
+
+# 🚀 API Keys & Config Files (Do NOT Commit API Keys!)
+.env
+*.secret
+openai_api_key.txt
+config.json
+
+# 🚀 Machine Learning & Data Files
+*.csv
+*.tsv
+*.json
+*.db
+*.sqlite
+*.h5
+*.pkl
+*.npy
+*.model
+*.onnx
+*.bin
+
+# 🚀 Virtual Environment
+pip-log.txt
+pip-delete-this-directory.txt
+__pypackages__/
+node_modules/
+
+# 🚀 Deployment & Docker Files
+*.dockerignore
+Dockerfile
+*.tar.gz
+*.whl
+
+# 🚀 Ignore Generated Documentation
+docs/_build/
+
+# custom adds
+course/

@@ -1,0 +1,63 @@
+name: langchain-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python
+  - python=3.9
+  - pip
+
+  # LangChain & LangGraph Core
+  - pip:
+      - langchain
+      - langchain-openai
+      - langgraph
+
+  # LLM & Embeddings
+      - openai
+      - tiktoken
+      - huggingface_hub
+      - transformers
+      - sentence-transformers
+
+  # Memory & Vector Databases for RAG
+      - chromadb
+      - faiss-cpu
+      - pinecone-client
+      - redis
+
+  # Web Frameworks & API Development
+      - fastapi
+      - flask
+      - uvicorn
+      - requests
+
+  # Multi-Agent Systems & Parallel Processing
+      - dask
+      - ray
+      - celery
+
+  # Fine-Tuning & Model Training (Level 4)
+      - torch
+      - accelerate
+      - peft
+      - bitsandbytes
+      - datasets
+
+  # Data Processing & Visualization
+      - numpy
+      - pandas
+      - matplotlib
+      - seaborn
+      - scikit-learn
+
+  # Development & Debugging
+      - jupyterlab
+      - ipykernel
+      - black
+      - pylint
+
+  # Deployment & Scaling
+      - docker
+      - kubernetes
